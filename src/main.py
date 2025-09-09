@@ -1,8 +1,4 @@
-"""HITBot MCP Server - Healthcare Information Technology Bot Operations Toolkit.
-
-This module implements an MCP (Model Context Protocol) server that provides
-integration with the HITL Snowflake data warehouse for candidate and job order search
-capabilities using Snowflake's Cortex Search Service.
+"""Example FastAPI application with FastMCP and custom health check endpoint.
 """
 
 import logging
@@ -18,7 +14,7 @@ logging.basicConfig(
 )
 
 # Create a named server with dependencies
-mcp = FastMCP("Healthcare Information Technology Bot Operations Toolkit (HITBot)")
+mcp = FastMCP("Nerfed description")
 
 @mcp.custom_route("/health", methods=["GET"])
 async def health_check(request):
