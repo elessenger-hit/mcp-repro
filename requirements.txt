@@ -1,0 +1,15 @@
+snowflake-connector-python
+snowflake-core
+pandas
+pyarrow
+fastmcp
+simple_salesforce
+boto3
+pydantic
+toml
+PyJWT>=2.8.0
+cryptography>=41.0.0
+httpx>=0.25.0
+uvicorn
+datadog
+ddtrace
